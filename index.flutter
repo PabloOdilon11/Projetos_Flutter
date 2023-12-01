@@ -48,7 +48,7 @@ class _MyFormState extends State<MyForm> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Me contacta'),
+        title: null, 
       ),
       body: Padding(
         padding: const EdgeInsets.all(16.0),
@@ -137,7 +137,7 @@ class SuccessScreen extends StatelessWidget {
             SizedBox(height: 20),
             ElevatedButton(
               onPressed: () {
-                Navigator.pop(context); // Volta para a tela anterior
+                Navigator.pop(context); 
               },
               child: Text('Voltar'),
             ),
